@@ -1,7 +1,7 @@
 "use client"; // Add this to make it a Client Component
 import "./globals.css";
 import { ApolloProvider } from "@apollo/client";
-import client from "./lib/apollo-client";
+import client from "../lib/apollo-client";
 import Link from "next/link";
 
 /**
